@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Duplicate Tab",
+  "version": "1.0",
+  "description": "Duplicate the current tab with ctrl + shift + k.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
+      "description": "Duplicate the current tab"
+    }
+  }
+}
+
